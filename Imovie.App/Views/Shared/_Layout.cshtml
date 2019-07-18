@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>My App: @ViewData["Title"]</title>
+<link href="~/css/styles.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="~/css/superfish.css" media="screen">
+<script src="~/js/jquery-1.9.0.min.js"></script>
+<script src="~/js/hoverIntent.js"></script>
+<script src="~/js/superfish.js"></script>
+<script>
+
+		// initialise plugins
+		jQuery(function(){
+			jQuery('#example').superfish({
+				//useClick: true
+			});
+		});
+
+		</script>
+</head>
+<body>
+<div class="header-wrapper">
+  <div class="wrapper">
+    <div class="logo">
+      <h1>Site Name</h1>
+      <span>lorem ipsum dolor sit</span> </div>
+    <div class="menu">
+      <ul class="sf-menu" id="example">
+        <li><a asp-action="Index">Home</a></li>
+        <li><a  asp-controller="Home" asp-action="Projects">Projects</a></li>
+        <li> <a asp-area="Customer" asp-controller="Dashboard" asp-action="Index">Contact</a> </li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  @RenderSection("banner", false)
+</div>
+<!---header-wrapper--->
+<div class="clear"></div>
+@RenderBody()
+<!---page-wrapper--->
+<div class="footer-wrapper">
+  <div class="footer">
+    <div class="panel marRight30">
+      <div class="title">
+        <h1>Aliquam vel urna</h1>
+        <h6>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod.</h6>
+      </div>
+      <div class="contnet">
+        <ul>
+          <li><a href="#">Aliquam vel urna in elit molestie lipsum</a></li>
+          <li><a href="#">Etiam tincidunt lacus vitae ligula interdum</a></li>
+          <li><a href="#">Maecenas eget nisi ac risus placerat</a></li>
+          <li class="border-bottom"><a href="#">In venenatis gravida massa, vitae ele</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="panel marRight30">
+      <div class="title">
+        <h1>ipsum dolor </h1>
+      </div>
+      <div class="contnet"> <img src="images/icon4.png" alt="icon" />
+        <spna>10-21-2012</spna>
+        <p>Suspendisse ultrices augue ultrices urna gestas quis dapibus vallis</p>
+      </div>
+      <div class="contnet"> <img src="images/icon4.png" alt="icon" />
+        <spna>10-19-2012</spna>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes</p>
+      </div>
+      <div class="contnet"> <img src="images/icon4.png" alt="icon" />
+        <spna>10-17-2012</spna>
+        <p>Pellentesque bibendum vehicula varius, eleifend at mauris.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="title">
+        <h1>Curabi tur ultri</h1>
+      </div>
+      <div class="content">
+        <p>Sed neque lectus, blandit tempor eleifend ut, lacinia vitae sapien. </p>
+      </div>
+      <div class="phone"> <img src="images/icon5.png" alt="icon" />
+        <h1>(000) 888 88888</h1>
+      </div>
+      <div class="content">
+        <p>Copyright (c) websitename. All rights reserved. 
+          < <a href="#">www.alltemplateneeds.com</a> > <br />
+          Images From: <a href="www.photorack.net">www.photorack.net</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<!---footer-wrapper--->
+</body>
+</html>

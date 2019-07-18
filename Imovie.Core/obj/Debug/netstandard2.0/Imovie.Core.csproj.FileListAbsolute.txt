@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\IMov\OMDBMvc-master\Imovie.Core\bin\Debug\netstandard2.0\Imovie.Core.deps.json
+C:\Users\user\Desktop\IMov\OMDBMvc-master\Imovie.Core\bin\Debug\netstandard2.0\Imovie.Core.dll
+C:\Users\user\Desktop\IMov\OMDBMvc-master\Imovie.Core\bin\Debug\netstandard2.0\Imovie.Core.pdb
+C:\Users\user\Desktop\IMov\OMDBMvc-master\Imovie.Core\obj\Debug\netstandard2.0\Imovie.Core.csprojAssemblyReference.cache
+C:\Users\user\Desktop\IMov\OMDBMvc-master\Imovie.Core\obj\Debug\netstandard2.0\Imovie.Core.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\IMov\OMDBMvc-master\Imovie.Core\obj\Debug\netstandard2.0\Imovie.Core.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\IMov\OMDBMvc-master\Imovie.Core\obj\Debug\netstandard2.0\Imovie.Core.AssemblyInfo.cs
+C:\Users\user\Desktop\IMov\OMDBMvc-master\Imovie.Core\obj\Debug\netstandard2.0\Imovie.Core.dll
+C:\Users\user\Desktop\IMov\OMDBMvc-master\Imovie.Core\obj\Debug\netstandard2.0\Imovie.Core.pdb

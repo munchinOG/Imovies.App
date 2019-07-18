@@ -1,0 +1,138 @@
+/* CSS Document */
+
+
+/*-------------------------------------------------
+GLOBALS & GENERAL CASES
+-------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #104f94;
+    font-family: 'Trebuchet MS', serif;
+    font-size: 12px;
+    color: #9e6659;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h4 {
+    color: #ffc01d;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', serif;
+}
+
+h6 {
+    color: #ffc01d;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc01d;
+}
+
+.clear {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.title h1 {
+    color: #ffc01d;
+}
+
+.title h2 {
+    color: #fff;
+}
+
+
+/* Header */
+
+.header-wrapper {
+    background: #ffcb43
+}
+
+.nav-wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.logo {
+    background: url('../images/logobg.png');
+    width: 300px;
+    height: 70px;
+    padding-top: 50px;
+    text-align: center;
+    position: absolute;
+    float: left;
+}
+
+.logo h1 {
+    width: 100%;
+}
+
+.menu {
+    float: right;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #9E6659;
+}
+
+.sf-menu {
+    display: block;
+}
+
+.sf-menu>li {
+    float: left;
+    list-style: none;
+    padding-right: 10px;
+    color: #533c47;
+}
+
+.sf-menu>li a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+    padding: 8px 14px 8px 14px;
+    text-transform: uppercase;
+}
